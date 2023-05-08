@@ -1,7 +1,7 @@
 {
-    "name": "ᗩᒍᗩ᙭",
+    "name": "VICTORIA-X",
     "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
-    "logo": "https://telegra.ph/file/1b837a8df2670b0097aaf.jpg",
+    "logo": "https://telegra.ph/file/a2dfb59d302fb745bf9ae.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -57,7 +57,7 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "required": false
+            "required": true
         },   
         "USE_CAPTION_FILTER": {
             "description": "Whether bot should use captions to improve search results. (True False)",
@@ -87,26 +87,26 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "OpusTechz",
+            "value": "netflixOxG",
             "required": false
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False",
-            "required": false     
+            "required": true    
         },
         "IMDB_TEMPLATE": {
             "description": "Custom IMDB Template",        
-            "required": false  
+            "required": true
         },
         "SINGLE_BUTTON": {
             "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
             "value": "True",
-            "required": false
+            "required": true
         },
         "P_TTI_SHOW_OFF": {
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
             "value": "True",
-            "required": false
+            "required": true
         }
     },
     "addons": [],
